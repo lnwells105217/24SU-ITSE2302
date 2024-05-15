@@ -1,0 +1,20 @@
+********** INDEX.HTML IMAGES **********
+
+Bold Jumping Spider:
+Photo by <a href="https://unsplash.com/@timothycdykes?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Timothy Dykes</a> on <a href="https://unsplash.com/photos/black-jumping-spider-on-green-leaf-in-macro-photography-T-8KRsRE6J8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+Green Bottle Blue Tarantula:
+Photo by <a href="https://unsplash.com/@julian_goebel?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Julian Göbel</a> on <a href="https://unsplash.com/photos/black-tarantula-on-cobweb-Geu9kXvorzA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+Scorpion:
+Image by <a href="https://pixabay.com/users/andrey_barsukov-805055/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=651142">andrey_barsukov</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=651142">Pixabay</a>
+
+Snail:
+Image by <a href="https://pixabay.com/users/jbooba-23039065/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7976786">Gregor Mima</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7976786">Pixabay</a>
+
+Praying Mantis:
+Photo by <a href="https://unsplash.com/@artsideofmine?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Ganna Aibetova</a> on <a href="https://unsplash.com/photos/green-praying-mantis-on-brown-wooden-surface-in-close-up-photography-during-daytime-u_D2zJ3VCjg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+Header Web:
+Photo by <a href="https://unsplash.com/@jyeo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">J Yeo</a> on <a href="https://unsplash.com/photos/a-close-up-of-a-spider-web-on-a-window-O9HBCpi1hME?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  

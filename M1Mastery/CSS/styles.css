@@ -1,0 +1,210 @@
+/* ********** SITE COLORS **********
+** #02020E (Black)
+** #eb5e5e (Light Red)
+** DarkRed
+** Snow
+** Cornsilk
+** #DDA15E (Orange)
+** #BC6C25 (Dark Orange)
+** Khaki
+** DarkKhaki
+** DarkOliveGreen
+** ********** FONTS ********** 
+** Platypi, 300-800, 0-1 */ 
+
+/* ********** FONTS *********** */
+@import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* ********** SECTION STYLING ********** */
+body {
+    background-color: cornsilk;ß
+    color: #02020E;
+    font: 300 16px/1.5 Platypi, serif;
+    /* centers entire page in viewport */
+    margin: 0 auto;
+    width: 100%;
+}
+header {
+    width: 100%;
+    height: 200px;
+    background-image: url("../Images/spiderweb_5500w.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+main {
+    width: 1080px;
+    margin: 0 auto;
+}
+h1 {
+    font: 800 36px/1.5 Platypi, serif;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 0;
+    /* underline */
+    padding-bottom: 2px;
+    border-bottom: 4px solid darkolivegreen;
+}
+h2 {
+    font: 600 28px/1.5 Platypi, serif;
+    margin-top: 24px; 
+    margin-bottom: 0;
+}
+h3 {
+    font: 500 24px/1.5 Platypi, serif;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+p {
+    margin: 5px 0 10px 0;
+}
+
+/* ********** MAIN SITE NAVIGATION ********** */
+nav li, footer li { 
+    /* removes li bullets */
+    list-style-type: none;
+}
+nav {
+    /* reference for nav ul */
+    position: relative;
+    height: 200px;
+    width: 100%;
+}
+nav ul {
+    /* puts li on one line */
+    display: flex;
+    /* background styling */
+    width: 80%;
+    height: 100px;
+    background-color: cornsilk;
+    border-radius: 20px;
+    /* interal padding to push li from the edges*/
+    box-sizing: border-box;
+    padding: 30px;
+    /* centers entire ul within header */
+    margin: 0; /* removes default margins */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* horizontally centers li within ul */
+    justify-content: space-between;
+    /* vertically centers li within ul */
+    align-items: center;
+}
+/* header button styling */
+.button{
+    /* adds internal padding to navigation links to create buttons */
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: darkkhaki;
+    margin: 0;
+    /* styles button border */
+    border: 4px solid darkolivegreen;
+    /* styles button text */
+    font: 800 20px/1 Platypi, serif;
+    color: #02020E;
+    border-radius: 10px;
+}
+/* header link states */
+.button:hover {
+    background-color: #DDA15E;
+    border-color: #BC6C25;
+    color: #02020E;
+}
+.button:visited {
+    background-color: khaki;
+    border-color: darkkhaki;
+    color: darkolivegreen;
+
+}
+.button:focus {
+    background-color: #eb5e5e;
+    border: 3px solid darkred;
+    color: #02020E;
+    padding: 9px;
+    font-size: 19px;
+}
+
+footer {
+    /* reference for footer ul */
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: darkkhaki;
+    clear: both;
+    margin-top: 50px;
+}
+footer ul {
+    display: flex;
+    width: 60%;
+    /* centers ul in footer */
+    margin: 0; /* removes default margins */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* horizontally centers li within ul */
+    justify-content: space-between;
+    /* vertically centers li within ul */
+    align-items: center;
+}
+/* footer link states */
+.link {
+    font: 500 16px/1 Platypi, serif;
+    color: #02020E;
+}
+.link:hover {
+    color: darkred;
+}
+.link:visited {
+    color: darkolivegreen;
+}
+.link:focus {
+    color: #BC6C25;
+}
+
+/* ********** INDEX.HTML STYLING ********** */
+/* CATETORIES - ARACHNIDS SECTION */
+.flex {
+    /* puts 3 images on same line */
+    display: flex;
+    width: 100%;
+}
+.flex img {
+    /* allows flex item to shrink smaller than actual image size */
+    min-width: 0;
+    /* maintains aspect ratio */
+    height: auto;
+    /* adds margins between images */
+    margin-right: 10px;
+}
+.flex img:nth-child(3){
+    /* ensures images touch both edges of container */
+    margin-right: 0;
+}
+.arachnid_section {
+    /* removes extra gap between Arachnids <h3> and Critter Categories <h2> */
+    margin-top: -12px;
+}
+
+/* CATEGORIES - ISOPODS & INSECTS SECTIONS */
+.float_left {
+    float: left;
+    margin-right: 15px;
+    margin-top: 12px;
+}
+section[title="Insects"] {
+    /* clears the following section of the float */
+    clear: left;
+}
+.isopods_h3, .insects_h3 {
+    /* moves h3 lower for floated images */
+    margin-bottom: -10px;
+}
+section[title="Insects"]::after {
+    /* CLEARFIX: makes container fit floated mantis image b/c text is smaller */
+    content: "";
+    display: table;
+    clear: both;
+}
