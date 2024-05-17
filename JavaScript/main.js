@@ -9,4 +9,4 @@ var numTen = 10, numFifteen = 15, numTwentyFive = 25;
 console.log(firstName + " " + lastName);
 console.log("The length of my sentence is: " + sentence.length + " characters long.");
 console.log("The sum of " + numTen + " and " + numFifteen + " is equal to " + numTwentyFive + ".");
-console.log("The variable theTruth is storing the value " + theTruth + ". The data type of theTruth is " + typeof(theTruth) + ".");ß
+console.log("The variable theTruth is storing the value " + theTruth + ". The data type of theTruth is " + typeof(theTruth) + ".");
