@@ -40,6 +40,7 @@ visit = visit.replace("El Paso", city);
 console.log(visit); 
 
 //LOOP
-for (one; one <= ten; one++) {
+while (one <= 10) {
     console.log("I saw " + one + " car(s) on my trip");
+    one++; 
 }
