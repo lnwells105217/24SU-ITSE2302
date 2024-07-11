@@ -15,7 +15,7 @@
 /* ********** FONTS *********** */
 @import url('https://fonts.googleapis.com/css2?family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
 
-/* ********** SECTION STYLING ********** */
+/* ********** SITEWIDE STYLING ********** */
 body {
     background-color: cornsilk;
     color: #02020E;
@@ -30,12 +30,12 @@ header {
     background-image: url("../Images/spiderweb_5500w.png");
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 main {
-    width: 1080px;
+    width: 75%;
     margin: 0 auto;
 }
+
 h1 {
     font: 800 36px/1.5 Platypi, serif;
     text-align: center;
@@ -43,7 +43,7 @@ h1 {
     margin-bottom: 0;
     /* underline */
     padding-bottom: 2px;
-    border-bottom: 4px solid darkolivegreen;
+    border-bottom: 3px solid darkkhaki;
 }
 h2 {
     font: 600 28px/1.5 Platypi, serif;
@@ -59,6 +59,16 @@ p {
     margin: 5px 0 10px 0;
 }
 
+/* SITE WIDE CLASSES */
+.flex {
+    /* turns container into a flexbox */
+    display: flex;
+    width: 100%;
+}
+.center {
+    text-align: center;
+    margin: 0 auto;
+}
 /* ********** MAIN SITE NAVIGATION ********** */
 nav li, footer li { 
     /* removes li bullets */
@@ -166,11 +176,6 @@ footer ul {
 
 /* ********** INDEX.HTML STYLING ********** */
 /* CATETORIES - ARACHNIDS SECTION */
-.flex {
-    /* puts 3 images on same line */
-    display: flex;
-    width: 100%;
-}
 .flex img {
     /* allows flex item to shrink smaller than actual image size */
     min-width: 0;
@@ -207,4 +212,45 @@ section[title="Insects"]::after {
     content: "";
     display: table;
     clear: both;
+}
+
+/* ********** CONTACT FORM STYLING ********** */
+label {
+    font-size: 20px;
+}
+input, select {
+    font-size: 16px; 
+}
+textarea, input[type="text"], select {
+    width: 100%;
+}
+input[type="submit"], input[type="reset"] {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+}
+td {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+
+#order-checkbox > label::after,
+#gift-radio > label::after {
+    /* forces each label onto it's own line*/
+    content: "";
+    display: block;
+}
+
+.contact-us-main {
+    width: 60%;
+}
+
+#order-total {
+    font-size: 20px;
+    text-align: center;
 }
