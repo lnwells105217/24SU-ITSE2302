@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="Insects, spider, tarantula, scorpion, isopods, millipedes, snails">
+        <meta name="description" content="A guide for finding, catching, and raising various invertebrates.">
+        <link rel="stylesheet" href="CSS/styles.css">
+        <title>Contact Us</title>
+    </head>
+
+    <body>
+        <header>
+            <nav role="navigation" aria-label="main menu site navigation">
+                <ul>
+                    <li>
+                        <a href="index.html" title="Home page" class="button">Home</a></li>
+                    <li>
+                        <a href="arachnids.html" title="Arachnids" class="button">Arachnids</a></li>
+                    <li>
+                        <a href="isopods.html" title="Isopods" class="button">Isopods</a></li>
+                    <li>
+                        <a href="millipedes.html" title="Millipedes" class="button">Millipedes</a></li>
+                    <li>
+                        <a href="snails.html" title="Snails" class="button">Snails</a></li>
+                    <li>
+                        <a href="insects.html" title="Insects" class="button">Insects</a></li>
+                    <li>
+                        <a href="contactUs.html" title="Contact form" class="button">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="contact-us-main">
+            <h1>Contact Us</h1>
+            <form id="contact-form">
+                <!-- used tables to style & organize form elements -->
+                <table>
+                    <tr>
+                        <td>
+                            <label for="name">Name</label>
+                            <input id="name" name="name" type="text" placeholder="John">
+                        </td>
+                        <td>
+                            <label for="email">Email Address</label>
+                            <input id="email" name="email" type="text" placeholder="johndoe@gmail.com">
+                        </td>
+                        <td>
+                            <label for="reason">Contact Reason</label>
+                            <select name="contact-reason" id="reason">
+                                <option value="" selected>Choose a Reason</option>
+                                <option value="question">Ask a Question</option>
+                                <option value="purchase">Purchase Supplies</option>
+                                <option value="bug">Report a Bug</option>
+                                <option value="wrong-info">Correct Wrong Info</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td>
+                            <label for="comments">Details</label>
+                            <textarea id="comments" rows="5"></textarea>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td>
+                            <fieldset id="order-checkbox">
+                                <legend>Select items to purchase</legend>
+            
+                                <input type="checkbox" id="terrarium" name="order" value="21.50">
+                                <label for="terrarium">Acrylic Terrarium ($21.50)</label>
+            
+                                <input type="checkbox" id="substrate" name="order" value="7.75">
+                                <label for="substrate">Substrate Mix ($7.75)</label>
+            
+                                <input type="checkbox" id="leaf" name="order" value="5.00">
+                                <label for="leaf">Magnolia Leaf Litter ($5.00)</label>
+            
+                                <input type="checkbox" id="bark" name="order" value="12.49">
+                                <label for="bark">Flat Cork Bark ($12.49)</label>
+                            </fieldset>
+                        </td>
+                        <td>
+                            <fieldset id="gift-radio">
+                                <legend>Choose a Free Gift</legend>
+                                <input type="radio" id="flower" name="gift" value="flower">
+                                <label for="flower">Decorative Fake Flower</label>
+            
+                                <input type="radio" id="mister" name="gift" value="mister">
+                                <label for="mister">Small Water Mister</label>
+            
+                                <input type="radio" id="tongs" name="gift" value="tongs">
+                                <label for="tongs">Feeding Tongs</label>
+                            </fieldset>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="reset" class="button" id="clear-bttn" value="Clear"></td>
+                        <td>
+                            <input type="submit" class="button" id="submit-bttn" value="Submit"></td>
+                    </tr>
+                </table>
+            </form>
+
+            <p hidden id="order-total"></p>
+        </main>
+
+        <footer>
+            <ul>
+                <li>
+                    <a href="index.html" title="Home page" class="link">Home</a></li>
+                <li>
+                    <a href="arachnids.html" title="Arachnids" class="link">Arachnids</a></li>
+                <li>
+                    <a href="isopods.html" title="Isopods" class="link">Isopods</a></li>
+                <li>
+                    <a href="millipedes.html" title="Millipedes" class="link">Millipedes</a></li>
+                <li>
+                    <a href="snails.html" title="Snails" class="link">Snails</a></li>
+                <li>
+                    <a href="insects.html" title="Insects" class="link">Insects</a></li>
+                <li>
+                    <a href="contact.html" title="Contact form" class="link">Contact Me</a></li>
+            </ul>
+        </footer>
+
+        <script src="JavaScript/formValidation.js"></script>
+    </body>  
+</html>
